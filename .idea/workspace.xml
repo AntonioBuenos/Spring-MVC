@@ -9,11 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c84ce20-3754-4e7f-943f-71b5f176aede" name="Changes" comment="Start, configuration">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/springtest/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/springtest/config/SpringConfig.java" afterDir="false" />
+    <list default="true" id="0c84ce20-3754-4e7f-943f-71b5f176aede" name="Changes" comment="No-XML config">
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/springtest/controllers/FirstController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/springtest/controllers/SecondController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/goodbye.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/second/exit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/smirnov/springtest/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContextMVC.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello_world.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +201,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661171382416</updated>
       <workItem from="1661171385045" duration="651000" />
-      <workItem from="1661172138941" duration="4735000" />
+      <workItem from="1661172138941" duration="6862000" />
     </task>
     <task id="LOCAL-00001" summary="Start, configuration">
       <created>1661201195676</created>
@@ -204,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661201195676</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="No-XML config">
+      <created>1661202750218</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661202750218</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +236,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start, configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start, configuration" />
+    <MESSAGE value="No-XML config" />
+    <option name="LAST_COMMIT_MESSAGE" value="No-XML config" />
   </component>
 </project>

@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c84ce20-3754-4e7f-943f-71b5f176aede" name="Changes" comment="@Controller">
+    <list default="true" id="0c84ce20-3754-4e7f-943f-71b5f176aede" name="Changes" comment="@RequestParam">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/calculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/smirnov/springtest/controllers/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/springtest/controllers/FirstController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
@@ -23,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,11 +59,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "spring.configuration.checksum": "fd5a381a052a819ba0f9589c5fff6180"
   }
 }]]></component>
   <component name="RunManager">
@@ -194,7 +199,8 @@
       <option name="presentableId" value="Default" />
       <updated>1661171382416</updated>
       <workItem from="1661171385045" duration="651000" />
-      <workItem from="1661172138941" duration="8983000" />
+      <workItem from="1661172138941" duration="10693000" />
+      <workItem from="1661238460099" duration="1828000" />
     </task>
     <task id="LOCAL-00001" summary="Start, configuration">
       <created>1661201195676</created>
@@ -217,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661204815355</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="@RequestParam">
+      <created>1661236504197</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661236504197</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +251,7 @@
     <MESSAGE value="Start, configuration" />
     <MESSAGE value="No-XML config" />
     <MESSAGE value="@Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="@Controller" />
+    <MESSAGE value="@RequestParam" />
+    <option name="LAST_COMMIT_MESSAGE" value="@RequestParam" />
   </component>
 </project>
